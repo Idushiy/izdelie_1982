@@ -1,0 +1,19 @@
+#include "A3A_SETUP\infiSTAR_AdminMenu.hpp"
+#include "SerP\header.hpp"
+//#include "mission.sqm"
+
+
+
+
+class SerP_const {
+	#include "const.hpp"
+};
+
+loadscreen = "pics\logo.jpg";
+
+class Params {
+#include "SerP\params_default.hpp"
+//здесь можно описать дополнительные параметры игры
+};
+forceRotorLibSimulation = 2;
+
